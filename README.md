@@ -61,8 +61,12 @@ RandomForestClassifier(
     n_estimators=100,
     random_state=42
 )
+```
 
 ## Results
 
 The Random Forest Classifier achieved a **95.35% test accuracy** on the test dataset. The model was also tested with a new set of environmental sensor readings to predict whether the room was occupied or unoccupied.
 
+The graph below shows the distribution of occupied and unoccupied observations in the training dataset.
+
+![Occupancy Distribution](room_occupancy_graph.png)
