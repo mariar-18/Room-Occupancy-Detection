@@ -6,8 +6,6 @@ A machine learning project that predicts whether a room is occupied or unoccupie
 
 Room occupancy can be estimated from changes in environmental conditions such as temperature, humidity, light and CO₂ levels. This project uses these sensor readings to build a classification model that identifies the occupancy status of a room.
 
-The project uses the **UCI Occupancy Detection Dataset**, which contains environmental sensor measurements collected from an office environment along with the corresponding occupancy status.
-
 ## Model
 
 A **Random Forest Classifier** is used to learn the relationship between the sensor readings and occupancy status. The trained model is then used to predict the occupancy of new sensor readings.
