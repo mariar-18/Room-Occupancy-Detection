@@ -52,7 +52,7 @@ The project follows these steps:
 5. Evaluate the model using accuracy
 6. Test the model with a new sensor reading
 
-### Model
+## Model
 
 **Random Forest Classifier**
 
@@ -61,3 +61,8 @@ RandomForestClassifier(
     n_estimators=100,
     random_state=42
 )
+
+## Results
+
+The Random Forest Classifier achieved a **95.35% test accuracy** on the test dataset. The model was also tested with a new set of environmental sensor readings to predict whether the room was occupied or unoccupied.
+
