@@ -69,4 +69,4 @@ The Random Forest Classifier achieved a **95.35% test accuracy** on the test dat
 
 The graph below shows the distribution of occupied and unoccupied observations in the training dataset.
 
-![Occupancy Distribution](room_occupancy_graph.png)
+![Room Occupancy Graph](room_occupancy_graph.png)
